@@ -1,3 +1,7 @@
+"""sers a lire les requetes sql, dans la ligne 21 on y met la requete sql , la ligne 11 nous connecte a la base de donne imdb.db"""
+
+
+
 import sqlite3
 def database_connexion(db_file):
     connexion = None
